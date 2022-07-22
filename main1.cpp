@@ -6,6 +6,7 @@ class File_N
 {
   public:
       char filename[1024];
+      int i;
     virtual void input_file() = 0;
 //     {
 //         cout<<"Enter the filename"<<endl;
